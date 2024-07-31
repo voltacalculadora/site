@@ -1,0 +1,249 @@
+#calcular {
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+#sumaValores{
+    font-size: 140%;
+}
+.prt{
+    
+    font-size: 1px;
+}
+#inversor{
+    font-size: 1px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.texto-anima {
+    text-align: center;
+    background-color: #f7931e; /* Fondo naranja */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none; /* inicialmente oculto */
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden; /* Oculta el texto que sobresale */
+}
+
+.texto, .texto-dinamico {
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#equipo-dinamico {
+    display: inline-block;
+    animation: slide-in 3s ease-out forwards;
+}
+
+@keyframes slide-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100px; /* Ancho del texto que aparecerá */
+    }
+}
+.contenedor {
+    text-align: center;
+}
+
+.estilo-frase {
+    font-style: italic;
+    color: orange;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 24px; /* Puedes ajustar el tamaño según prefieras */
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente si quieres */
+}
+
+.potencia-pico {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.potencia-pico-verde {
+    background-color: green;
+}
+
+.potencia-pico-rojo {
+    background-color: red;
+}
+
+.kitss{
+    margin-bottom: 20%;
+    
+    }
+    #recomendado{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    }
+    .position-absolute-top-end {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    
+    #mostrarCard{
+      text-align: center;
+      margin: 0 auto;
+      color: rgba(255, 255, 255, 0.9) !important;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 0.5em 1.2em;
+      background: #ff6b08;
+      border-radius: 20px;
+      border: none;
+      border-color: #cfcdcc;
+      position: relative;
+    
+    }
+    #mostrarCard:hover {
+      text-align: center;
+      margin: 0 auto;
+      color: rgba(255, 255, 255, 1) !important;
+      box-shadow: 0 4px 16px rgb(255, 102, 14);
+      transition: all 0.2s ease;
+    }
+    
+    #kits{
+      margin: 0 auto;
+      border-radius: 20px; box-shadow: 5px 5px  20px rgb(95, 95, 95);
+     width: 400px;
+    
+    }
+    
+    #body{
+        background-color: #edeff1;
+       
+    justify-content: center;
+    align-items: center;
+        
+    }
+    #titulo{
+      font-size: 350%;
+        text-align: center;
+        margin-top: 4%;
+    }
+    .botones {
+        width: 100%;
+        text-align: center;
+      }
+      
+      .separar {
+        padding: 3%;
+        display: inline-block;
+        cursor: pointer;
+        
+      }
+      
+      .titulo {
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+        text-decoration:wavy;
+        color: #383333;
+      }
+        #consumo{
+            border: none;
+        }
+        #formulario{
+            border-radius: 20px; box-shadow: 5px 5px  20px rgb(109, 109, 109);
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+        #resultado{
+            border: none;
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-top: 5%;
+            background-color: #ff6b08;
+        }
+        #resultadoc{
+            border: none;
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-top:5%;
+            background-color: #ff6b08;
+        }
+        #lista{
+            
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-top:10%;
+            
+    
+        }
+      #w{
+        color: rgb(255, 255, 255);
+        font-size: 150%;
+        text-align: center;
+      }
+      #potencias{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 0%;
+    
+      }
+      .boton4 {
+        color: rgba(255, 255, 255, 0.9) !important;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0.5em 1.2em;
+        background: #ff6b08;
+        border-radius: 20px;
+        border: none;
+        border-color: #cfcdcc;
+        position: relative;
+      }
+      .boton1 {
+        margin-top: 20%;
+        color: rgba(255, 255, 255, 0.9) !important;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0.5em 1.2em;
+        background: #ff6b08;
+        border-radius: 20px;
+        border: 2px solid;
+        border-color: #ff6b08;
+        position: relative;
+      }
+      .boton1:hover {
+        margin-top: 20%;
+        color: rgba(255, 255, 255, 1) !important;
+        box-shadow: 0 4px 16px rgb(255, 102, 14);
+        transition: all 0.2s ease;
+      }
+      .boton4:hover {
+        color: rgba(255, 255, 255, 1) !important;
+        box-shadow: 0 4px 16px rgb(255, 102, 14);
+        transition: all 0.2s ease;
+      }
+      
+    
+    
